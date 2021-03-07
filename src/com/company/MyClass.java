@@ -9,6 +9,7 @@ public class MyClass {
     private double d;
     private String string;
     private Integer integer;
+    private final char[] abc = new char[]{'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
 
     public MyClass(byte b, short s, int i, long l, float f, double d, String string, Integer integer) {
         this.b = b;
@@ -40,5 +41,15 @@ public class MyClass {
     public boolean compare(String that){return string == that;}
 
     public boolean compare(Integer that){return integer == that;}
+
+    public int findCharNumberInAlphabet(char ch){
+
+        for (int j = 0; j < abc.length; j++) {
+            if (abc[j] == ch) {
+                return j+1;
+            }
+        }
+        return 0;
+    }
 
 }

@@ -44,5 +44,10 @@ public class Main {
         startTime = System.nanoTime();
         System.out.println("\n"+myClass.compare(integer)+"\nСравнение Integer заняло "+(System.nanoTime()-startTime)+" нс");
 
+        char ch = 'd';
+        startTime = System.nanoTime();
+        System.out.println("\n"+myClass.findCharNumberInAlphabet(ch)+"\nПоиск буквы " + ch +" занял "+(System.nanoTime()-startTime)+" нс");
+
+
     }
 }
