@@ -1,8 +1,11 @@
 package com.company;
 
-public class Main {
+public class Task1 {
 
     public static void main(String[] args) {
+
+
+
 //        Задание 1.1. Приведите пример алгоритмов и структур данных из жизни:
 //          1. Маршрут следования по карте
 //          2. Инструкция по применению бытовой техники
