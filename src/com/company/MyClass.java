@@ -38,15 +38,15 @@ public class MyClass {
 
     public boolean compare(double that){return d == that;}
 
-    public boolean compare(String that){return string == that;}
+    public boolean compare(String that){return string.equals(that);}
 
-    public boolean compare(Integer that){return integer == that;}
+    public boolean compare(Integer that){return integer.equals(that);}
 
     public int findCharNumberInAlphabet(char ch){
 
         for (int j = 0; j < abc.length; j++) {
             if (abc[j] == ch) {
-                return j+1;
+                return j;
             }
         }
         return 0;
