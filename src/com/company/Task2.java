@@ -118,7 +118,7 @@ public class Task2 {
 //        System.out.println("Отсортированный массив (выбор):\n" + Arrays.toString(intArrayForSelectionSorting));
 
         startTime = System.nanoTime();
-        myArray.selectionSort(intArrayForInsertionSorting);
+        myArray.insertionSort(intArrayForInsertionSorting);
         System.out.println("Сортировка вставками заняла " + (System.nanoTime()-startTime) + " нс");
 //        System.out.println("Отсортированный массив (вставка):\n" + Arrays.toString(intArrayForInsertionSorting));
     }
