@@ -1,11 +1,11 @@
 package com.company;
 
 public class Link<T> {
-    private T link;
+    private T content;
     private Link<T> next;
 
-    public Link(T link) {
-        this.link = link;
+    public Link(T content) {
+        this.content = content;
     }
 
     public Link<T> getNext() {
@@ -17,7 +17,7 @@ public class Link<T> {
     }
 
     public T getValue() {
-        return link;
+        return content;
     }
 
 }
