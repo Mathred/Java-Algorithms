@@ -17,7 +17,11 @@
 Приведите пример сбалансированного дерева и его применения.
  */
 
-package com.company;
+package Lesson6;
+
+import Lesson1.MyClass;
+import Lesson2.MyArray;
+import Lesson3.TimeManager;
 
 import java.util.Arrays;
 

@@ -11,7 +11,7 @@
 Оцените время выполнения алгоритма с помощью базового метода System.nanoTime().
  */
 
-package com.company;
+package Lesson1;
 
 public class Task1 {
 

@@ -1,4 +1,4 @@
-package com.company;
+package Lesson3;
 
 public class Link<T> {
     private T content;

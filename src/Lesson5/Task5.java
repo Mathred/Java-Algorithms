@@ -16,7 +16,10 @@
 Оцените алгоритм сортировки слиянием с помощью базового метода System.nanoTime() и сравните с сортировкой методом sort().
  */
 
-package com.company;
+package Lesson5;
+
+import Lesson1.MyClass;
+import Lesson3.TimeManager;
 
 import java.util.Arrays;
 import java.util.Random;

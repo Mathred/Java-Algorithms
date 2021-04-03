@@ -1,4 +1,6 @@
-package com.company;
+package Lesson4;
+
+import Lesson3.Link;
 
 public class MyQueue<T> {
     private Link<T> first;

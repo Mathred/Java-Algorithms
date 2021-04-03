@@ -1,4 +1,4 @@
-package com.company;
+package Lesson3;
 
 public class TimeManager {
     private long startTime;

@@ -1,4 +1,6 @@
-package com.company;
+package Lesson4;
+
+import Lesson3.Link;
 
 public class MyStack<T> {
     private Link<T> top;

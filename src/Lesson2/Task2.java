@@ -29,7 +29,9 @@
 Сравните с временем выполнения алгоритмов сортировки из прошлых заданий 2.3, 2.4 и 2.5.
  */
 
-package com.company;
+package Lesson2;
+
+import Lesson1.MyClass;
 
 import java.util.Arrays;
 

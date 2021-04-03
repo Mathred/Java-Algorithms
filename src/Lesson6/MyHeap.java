@@ -1,4 +1,4 @@
-package com.company;
+package Lesson6;
 
 public class MyHeap {
     private int heapSize;

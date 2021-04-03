@@ -15,7 +15,9 @@
 Оцените время выполнения операций с помощью базового метода System.nanoTime()
  */
 
-package com.company;
+package Lesson3;
+
+import Lesson1.MyClass;
 
 import java.util.*;
 
